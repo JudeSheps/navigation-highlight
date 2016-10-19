@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #ffe500;
+  display: inline-block;
+  text-align: center;
+}
+
+h1 {
+  font-family: Georgia, Sigmar One;
+  font-size: 3em;
+  color: #cc1465;
+  margin: 0;
+}
+
+h2 {
+  font-family: Georgia, Sigmar One;
+  font-size: 1.875em;
+  color: #cc1465;
+  margin: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+a {
+  font-size: 1.125em;
+  color: #ffffff;
+  padding: 0.2em 0.5em 0.3em;
+  border-radius: 4px;
+  background-color: #b2a212;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #ffe500;
+}
