@@ -1,26 +1,44 @@
+html {
+  box-sizing: border-box;
+  color: #2f2d13;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   margin: 0;
   line-height: 1.5;
+  font-family: Georgia, serif;
 }
 
 header {
   background-color: #ffe500;
-  display: inline-block;
   text-align: center;
+  margin:0 0 .2em,
 }
 
 h1 {
-  font-family: Georgia, Sigmar One;
+  font-family: "Sigmar One", cursive;
   font-size: 3em;
-  color: #cc1465;
+  color: #b20953;
   margin: 0;
 }
 
+img {
+  width: 100%;
+}
+
 h2 {
-  font-family: Georgia, Sigmar One;
+  font-family: "Sigmar One", cursive;
   font-size: 1.875em;
-  color: #cc1465;
-  margin: 0;
+  color: #b20953;
+  margin:0 0 .1em,
+}
+
+nav {
+    padding: 0.6em 0 0.6em;
 }
 
 nav ul {
@@ -33,6 +51,7 @@ nav li {
 }
 
 a {
+  display: inline-block;
   font-size: 1.125em;
   color: #ffffff;
   padding: 0.2em 0.5em 0.3em;
@@ -41,15 +60,26 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  background-color: #cc1465;
+}
+
+main {
+  padding: 10px;
+}
+
 p {
+  display: inline-block;
   margin: 0;
 }
 
 footer {
   text-align: center;
   background-color: #ffe500;
+  padding: 10px;
+  margin: 0.2em 0 0 0;
 }
 
 li .current {
-  background-color: #cc1465;
+  background-color: #b20953;
 }
