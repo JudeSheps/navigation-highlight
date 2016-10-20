@@ -16,7 +16,7 @@ body {
 header {
   background-color: #ffe500;
   text-align: center;
-  margin:0 0 .2em,
+  margin: 0 0 0.2em,
 }
 
 h1 {
@@ -34,7 +34,7 @@ h2 {
   font-family: "Sigmar One", cursive;
   font-size: 1.875em;
   color: #b20953;
-  margin:0 0 .1em,
+  margin: 0 0 0.1em,
 }
 
 nav {
